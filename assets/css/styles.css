@@ -16486,7 +16486,7 @@ textarea.form-control-lg {
 }
 
 .animate-spin {
-  /*! animation: spin 1s linear infinite; */
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -16680,7 +16680,7 @@ a:hover {
 }
 
 .link-hover:hover {
-  color: var(--bs-primary) !important;
+  color: #2BC6FF !important;
 }
 
 ul {
