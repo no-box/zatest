@@ -16601,7 +16601,7 @@ textarea.form-control-lg {
   background-color: var(--bs-light-gray);
 }
 .accordion-button:not(.collapsed)::after {
-  background-color: var(--bs-primary);
+  background-color: #2BC6FF;
 }
 .accordion-button:not(.collapsed) {
   box-shadow: unset;
