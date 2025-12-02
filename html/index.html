@@ -54,14 +54,14 @@
                           class="img-fluid animate-spin">About</a>
                     </li>
                     <li class="header-item">
+                      <a href="docs.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                          src="../assets/images/svgs/nb-minilogo-1.svg" alt="" width="20" height="20"
+                          class="img-fluid animate-spin">Docs</a>
+                    </li>
+                    <li class="header-item">
                       <a href="contact.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                           src="../assets/images/svgs/nb-minilogo-1.svg" alt="" width="20" height="20"
                           class="img-fluid animate-spin">Contact</a>
-                    </li>
-                    <li class="header-item">
-                      <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                          src="../assets/images/svgs/nb-minilogo-1.svg" alt="" width="20" height="20"
-                          class="img-fluid animate-spin">Docs</a>
                     </li>
                   </ul>
                 </div>
@@ -82,9 +82,6 @@
 
     <!--  Banner Section -->
     <section class="banner-section position-relative d-flex align-items-end min-vh-100">
-      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
-        <source src="../assets/images/backgrounds/hd_bx2 copy.webm" type="video/mp4" />
-      </video>
       <div class="container">
         <div class="d-flex flex-column gap-4 pb-8 position-relative z-1">
           <div class="row align-items-center">
@@ -97,6 +94,7 @@
                   <span class="text-primary">Live Streaming</span> </p>
               </div>
             </div>
+
           </div>
           <div class="d-flex align-items-end gap-3" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
             <h1 class="mb-0 fs-16 text-white lh-1">nobox</h1>
@@ -104,6 +102,9 @@
           </div>
         </div>
       </div>
+      <video class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover" autoplay muted loop playsinline>
+        <source src="../assets/images/backgrounds/hd_bx2 copy.webm" type="video/mp4" />
+      </video>
     </section>
 
     <!--  01 CHALLANGE -->
@@ -126,11 +127,10 @@
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
                     <h2 class="mb-0">NETWORK INSTABILITY</h2>
-                    <p class="fs-5 mb-0">
-                      Regular smartphone has more than enough power to encode video. 
-                      <br>The challenge is navigating the unpredictable digital jungle of signals and congestion.
-                      <br>Bonded network stream seamlessly combine all available connections GSM, Wi-Fi, Ethernet. 
-                      <br>If one drops, the others keep going without interruption - in real time.</p>
+                      <p class="fs-5 mb-0">
+                        <br>The challenge lies in navigating the unpredictable digital jungle of fluctuating signals and network congestion. 
+                        Bonded network streams solve this by seamlessly combining all available connections—GSM, Wi-Fi, and Ethernet—into a single, robust pipeline. If one underlying connection drops, the others continue without interruption, maintaining a stable stream in real-time.
+                      </p>
                   </div>
                 </div>
                 <!--  Council
@@ -152,7 +152,9 @@
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="1000">
                     <h4 class="mb-0">Signal interruptions</h4>
-                    <p class="mb-0">Physical obstructions, movement, or weak coverage instantly degrade or kill a stream. Robust bonding uses multiple SIMs and connection types in parallel, creating redundancy. If the primary link drops, a secondary takes over transparently, preserving stream integrity.</p>
+                      <p class="mb-0">
+                        Disruptions in the link between a device and the base station are inevitable. These interruptions result in reduced signal quality, causing drops in data transfer speeds and unreliable transmission.
+                      </p>
                   </div>
                 </div>
                 </div>
@@ -164,8 +166,10 @@
 
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="1000">
-                    <h4 class="mb-0">Network Saturation</h4>
-                    <p class="mb-0">A "strong signal" means nothing when the network is saturated. Bonding technology bypasses this by using multiple independent networks (different carriers, Wi-Fi, Ethernet) simultaneously. This aggregates bandwidth and avoids the saturated choke points that cripple single-link streams.</p>
+                    <h4 class="mb-0">Network Congestion</h4>
+                      <p class="mb-0">
+                        A "strong signal" means nothing when the local cell tower network is saturated with traffic. A truly resilient system avoids these bottlenecks by balancing the load across multiple independent carriers and networks simultaneously.
+                      </p>
                   </div>
                 </div>
                 </div>
@@ -177,8 +181,10 @@
 
                   <div class="d-flex flex-column gap-6 pt-9 border-top" data-aos="fade-up" data-aos-delay="300"
                     data-aos-duration="1000">
-                    <h4 class="mb-0">Operational Rigidity</h4>
-                    <p class="mb-0">True mobility requires an all-in-one solution that combines professional encoding with multi-link bonding in a portable form factor. This eliminates the search for a single "perfect" connection, enabling broadcast-grade streams from anywhere—moving or static.</p>
+                    <h4 class="mb-0">Workflow Inflexibility</h4>
+                      <p class="mb-0">
+                        Traditional systems suffer from operational rigidity. Adding or changing an internet source mid-stream often requires navigating menus and interrupting live broadcast to reconfigure.
+                      </p>
                   </div>
                 </div>
                 </div>
@@ -224,8 +230,8 @@
               <div class="card bg-primary w-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                 <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <h5 class="mb-0 text-black">PACKET-LEVEL BONDING</h5>
-                    <h4 class="mb-0 text-black">Video is fragmented into digital packets at the source with forward error correction.</h4>
+                    <h4 class="mb-0 text-black">SMART FRAGMENTATION</h4>
+                    <h5 class="mb-0 text-black">Video is divided into micro-packets with built-in error correction, preparing the data for travel across multiple paths.</h5>
                   </div>
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="hstack gap-3">
@@ -239,8 +245,8 @@
               <div class="card bg-dark w-100" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                 <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <h5 class="mb-0 text-white text-opacity-70">MULTI-NETWORK DELIVERY</h5>
-                    <h4 class="mb-0 text-white pe-xl-2">Transmitted simultaneously across all available links—multiple 4G/5G SIMs, Wi-Fi, and Ethernet prioritizing the strongest signal in real-time.</h4>
+                    <h4 class="mb-0 text-primary text-opacity-70">MULTI-NETWORK TRANSMISSION</h4>
+                    <h5 class="mb-0 text-white pe-xl-2">The system utilizes GSM, Wi-Fi, and Ethernet at the same time. This parallel delivery ensures that a drop in one network never stops the stream.</h5>
                     <div class="hstack gap-2">
 
                     </div>
@@ -257,8 +263,10 @@
               <div class="card w-100" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                 <div class="card-body d-flex flex-column gap-5 gap-xl-11 justify-content-between">
                   <div class="d-flex flex-column gap-4">
-                    <h5 class="mb-0 text-black">PERFECT REASSEMBLY</h5>
-                    <h4 class="mb-0 text-black">Advanced algorithm reconstruct any lost packets, delivering a complete, uninterrupted broadcast-quality stream.</h4>
+                    <h4 class="mb-0 text-primary">SEAMLESS RECONSTRUCTION</h4>
+                      <h5 class="mb-0 text-black">
+                        Advanced cloud algorithms reconstruct the packets back together perfectly, correcting any errors to deliver a flawless video feed to the audience.
+                      </h5>
                   </div>
                   <div class="d-flex align-items-center justify-content-between">
                     <div class="hstack gap-3">
@@ -284,7 +292,7 @@
                   </a>
               </div>
             </div>
-          </div>
+        </div>
       </div>
     </section>
 
@@ -310,7 +318,7 @@
                     <h2 class="mb-0 text-white">PLUG & PLAY WITH ANY SYSTEM</h2>
                     <p class="fs-5 mb-0 text-white text-opacity-70">
                     <h4>YOU BRING THE STORY, WE BRING THE STREAM</h4>
-                    Seamlessly integrates into any broadcast workflow, from major TV networks to corporate intranets, with zero friction.</p>
+                    Nobox integrates seamlessly into any workflow — from major TV networks to corporate intranets — with zero friction.</p>
                   </div>
                 </div>
               </div>
@@ -348,9 +356,9 @@
                             aria-controls="one" aria-selected="true">TV Networks</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
-                          <h5>Strategic backup | Broadcast-Proven Redundancy</h5>
+                          <h5>Strategic backup</h5>
                           <p class="text-white text-opacity-70 mb-0">
-                             Supplement a primary system (LiveU, Aviwest, Dejero) with independent backup link. It integrates natively, providing critical redundancy to guarantee your broadcast stays on air, no matter what.
+                             Supplement your primary fleet (LiveU, Aviwest, Dejero) with an independent backup link. Our system integrates natively, providing the critical redundancy needed to guarantee your broadcast stays on air, no matter what.
                           </p>
                         </div>
                       </div>
@@ -362,12 +370,12 @@
                         <div class="col-lg-6 col-xxl-5">
                           <button class="nav-link fs-10 fw-bold py-1 px-0 border-0 rounded-0 flex-shrink-0" id="two-tab"
                             data-bs-toggle="tab" data-bs-target="#two" type="button" role="tab" aria-controls="two"
-                            aria-selected="false">Web media</button>
+                            aria-selected="false">Digital Media</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
-                          <h5>Web Media | Elevate Production</h5>
+                          <h5>Elevate Production</h5>
                           <p class="text-white text-opacity-70 mb-0">
-                            Directly stream high-production-value content to any online portal or platform. Enhance your web presence with reliable, broadcast-grade quality far beyond standard webcam streams.
+                            Stream high-production-value content directly to any online portal or social platform. Elevate your web presence with reliable, broadcast-grade quality that goes far beyond standard webcam streams.
                           </p>
                         </div>
                       </div>
@@ -382,9 +390,9 @@
                             aria-controls="three" aria-selected="false">Events</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
-                          <h5>Events | Capture & Share the Moment</h5>
+                          <h5>Capture & Share the Moment</h5>
                           <p class="text-white text-opacity-70 mb-0">
-                            From product launches to live sports, deliver the action in real time. Agility and reliability to stream from the heart of the event live and in high definition 4K.
+                            From product launches to live sports, deliver the action in real-time. Gain the agility and reliability to stream from the heart of the event, live and in high-definition 4K.
                           </p>
                         </div>
                       </div>
@@ -399,9 +407,9 @@
                             aria-controls="four" aria-selected="false">Privete Stream</button>
                         </div>
                         <div class="col-lg-6 col-xxl-7">
-                          <h5>Secure (Private) Stream | Ultimate Content Security</h5>
+                          <h5>Secure Private Stream | Ultimate Content Security</h5>
                           <p class="text-white text-opacity-70 mb-0">
-                            For confidential CEO presentations, board meetings, or secure lobbies. Bypass all public platforms (YouTube, Facebook, etc.). Stream directly and securely via SRT to a specific, private destination address on your own server. Full encryption, total control.
+                            Ideal for confidential CEO presentations, board meetings, or internal communications. Bypass all public platforms (YouTube, Facebook, etc.) and stream directly via SRT to a specific, private destination on your own server. Full encryption, total control.
                           </p>
                         </div>
                       </div>
@@ -435,8 +443,9 @@
                 <span class="badge text-bg-dark">WHY NOBOX</span>
               </div>
               <h2 class="mb-0" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">KEY ADVANTAGES</h2>
-              <p class="mb-0 fs-5" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
-                <h3>Simplicity.</h3> 
+              <p class="mb-0 fs-5" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                <h3>Results.
+                <br>Simplicity.</h3> 
                 <h4>No extra hardware.
                 <br>No complex setup.</h4>
               </p>
@@ -482,7 +491,7 @@
                   <div class="card bg-dark">
                     <div class="card-body d-flex flex-column gap-7">
                       <div>
-                        <h2 class="mb-0 text-white">SRT</h2>
+                        <h3 class="mb-0 text-primary">SRT</h3>
                         <p class="mb-0 text-white text-opacity-70">SRT (Secure Reliable Transport) protocol is a modern standard, featuring end-to-end encryption, robust error correction, and low latency - resilient against poor network conditions.</p>
                       </div>
                       
@@ -1050,7 +1059,7 @@
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fs-8 fw-bold" type="button" data-bs-toggle="collapse"
                       data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFour">
-                      How thw stream can be viewed?
+                      How the stream can be viewed?
                     </button>
                   </h2>
                   <div id="flush-collapseFive" class="accordion-collapse collapse"
