@@ -7725,7 +7725,7 @@ textarea.form-control-lg {
 }
 
 .border-end {
-  border-right: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border-right: var(--bs-border-width) var(--bs-border-style) rgba(217, 217, 217, 0.12) !important;
 }
 
 .border-end-0 {
@@ -9644,7 +9644,7 @@ textarea.form-control-lg {
 
 .text-dark {
   --bs-text-opacity: 1;
-  color: rgb(0, 15, 45) !important;
+  color: rgb(0, 43, 128) !important;
 }
 
 .text-muted {
@@ -16429,7 +16429,7 @@ textarea.form-control-lg {
   }
 }
 .header.fixed-header {
-  padding: 20px 0;
+  padding: 7px 0;
   background-color: #2BC6FF;
 }
 .header.fixed-header .logo .logo-dark {
