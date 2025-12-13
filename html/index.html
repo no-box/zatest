@@ -19,9 +19,7 @@
     <div class="container">
       <div class="header-wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
-          <a href="index.html" class="logo-white">
-            <img src="../assets/images/logos/logo-light-2.png" alt="logo" class="img-fluid">
-          </a>
+
           <a href="index.html" class="logo-dark">
             <img src="../assets/images/logos/logo-dark-2.png" alt="logo" class="img-fluid">
           </a>
@@ -89,10 +87,81 @@
           <div class="col-xl-4 col-xxl-4">
             <div class="d-flex align-items-center gap-7 py-2" data-aos="fade-right" data-aos-delay="100"
               data-aos-duration="1000">
-              <span
-                class="round-36 flex-shrink-0 text-dark rounded-circle hstack justify-content-center fw-medium"></span>
-              <hr class="border-line bg-dark">
-              <span class="badge text-bg-dark"></span>
+              <!-- Bonding -->
+          <div class="bonding">
+
+                  <svg width="320" height="200" viewBox="0 0 160 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Pozadina -->
+                    <rect width="200" height="100" fill="none"/>
+                    
+                    <!-- SIM 1-4 -->
+                    <g id="sim1">
+                      <rect x="15" y="9" width="90" height="6" fill="#32325b" stroke="#000033" stroke-width="0.5"/>
+                      <rect x="15" y="9" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="65;75;72;60;78;68;72;65;60;65" dur="4s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="14" font-size="5" fill="#000033" font-weight="bold">4G SIM 1</text>
+                    </g>
+                    
+                    <g id="sim2">
+                      <rect x="15" y="21" width="90" height="6" fill="#32325b" stroke="#001914" stroke-width="0.5"/>
+                      <rect x="15" y="21" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="24;32;45;25;28;40;50;62;24;32;24" dur="4.5s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="26" font-size="5" fill="#000033" font-weight="bold">4G SIM 2</text>
+                    </g>
+                    
+                    <g id="sim3">
+                      <rect x="15" y="33" width="90" height="6" fill="#32325b" stroke="#001914" stroke-width="0.5"/>
+                      <rect x="15" y="33" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="56;72;80;45;66;60;68;56" dur="3.8s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="38" font-size="5" fill="#000033" font-weight="bold">4G SIM 3</text>
+                    </g>
+                    
+                    <g id="sim4">
+                      <rect x="15" y="45" width="90" height="6" fill="#32325b" stroke="#001914" stroke-width="0.5"/>
+                      <rect x="15" y="45" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="30;25;40;52;45;40;42;30" dur="4.2s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="50" font-size="5" fill="#000033" font-weight="bold">4G SIM 4</text>
+                    </g>
+                    
+                    <!-- WiFi -->
+                    <g id="wifi">
+                      <rect x="15" y="57" width="90" height="6" fill="#32325b" stroke="#001914" stroke-width="0.5"/>
+                      <rect x="15" y="57" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="72;60;65;70;65;72;65;68;72" dur="4s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="62" font-size="5" fill="#000033" font-weight="bold">Wi-Fi</text>
+                    </g>
+                    
+                    <!-- LAN -->
+                    <g id="lan">
+                      <rect x="15" y="69" width="90" height="6" fill="#32325b" stroke="#001914" stroke-width="0.5"/>
+                      <rect x="15" y="69" width="0" height="6" fill="#2BC6FF">
+                        <animate attributeName="width" values="49;45;42;45;49;42;49" dur="3.5s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="74" font-size="5" fill="#000033" font-weight="bold">Ethernet</text>
+                    </g>
+                    
+                    <!-- MASTER - ukupno -->
+                    <g id="master">
+                      <!-- <text x="150" y="75" font-size="8" fill="#ffd700" font-weight="bold">BONDED</text> -->
+                      <rect x="15" y="80" width="130" height="12" fill="#000f2d" stroke="#ccc" stroke-width="0.5" opacity="0.5" />
+                      <rect x="15" y="81" width="0" height="10" fill="#2BC6FF" opacity="0.7">
+                        <animate attributeName="width" values="125;130;126;129;125" dur="4s" repeatCount="indefinite"/>
+                      </rect>
+                      <text x="18" y="89" font-size="8" fill="#fff" font-weight="bold">BONDED 15-20 Mbps</text>
+                    </g>
+                    
+                    <!-- Naslov -->
+                    <text x="115" y="15" font-size="7" fill="#eee" text-anchor="left" font-weight="bold">Dynamic</text>
+                    <text x="115" y="25" font-size="7" fill="#eee" text-anchor="left" font-weight="bold">Network</text>
+                    <text x="115" y="35" font-size="7" fill="#eee" text-anchor="left" font-weight="bold">Bonding</text>
+                  </svg>
+
+          </div>
             </div>
           </div>
 
@@ -183,6 +252,10 @@
           
           <div class="row align-items-center">
             <div class="col-xl-4">
+              <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
+                data-aos-duration="1000">
+                
+              </div>
               <div class="d-flex align-items-center gap-4" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="1000">
                 <img src="../assets/images/svgs/nb-minilogo-1.svg" alt="minilogo" class="img-fluid animate-spin">
@@ -397,10 +470,10 @@
                 <div class="col-xxl-12">
                   <div class="d-flex flex-column gap-6" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000">
-                    <h2 class="mb-0 text-white">PLUG & PLAY WITH ANY SYSTEM</h2>
+                    <h2 class="mb-0 text-white">UNIVERSAL COMPATIBILITY</h2>
                     <p class="fs-5 mb-0 text-white text-opacity-70">
-                    <h4>YOU BRING THE STORY, WE BRING THE STREAM</h4>
-                    Nobox integrates seamlessly into any workflow — from major TV networks to corporate intranets — with zero friction.</p>
+                    <h4>PLUG & PLAY WITH ANY SYSTEM. NO VENDOR LOCK-IN. EVER.</h4>
+                    Nobox integrates seamlessly into any workflow and delivers clean SRT stream that integrate seamlessly with your existing infrastructure - whether it's a broadcast truck, cloud workflow, or even VLC player. Your workflow, your rules.</p>
                   </div>
                 </div>
               </div>

@@ -10292,6 +10292,23 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
+.bonding {
+/*! position: absolute; */
+/*! top: 8%; */
+/*! left: 6vw; */
+background: #8e0000a8;
+color: white;
+/*! padding: 0.5rem; */
+z-index: 3;
+/*! display: block; */
+/*! scale: 200%; */
+border: solid 1px #A8A8A8;
+border-radius: 1vw;
+/*! zoom: 200%; */
+/*! margin-left: 6vw; */
+/*! margin-top: -56vh; */
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
