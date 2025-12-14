@@ -10009,11 +10009,11 @@ textarea.form-control-lg {
 }
 
 .bg-warning-subtle {
-  background-color: var(--bs-warning-bg-subtle) !important;
+  background-color: #aa0303b8 !important;
 }
 
 .bg-danger-subtle {
-  background-color: var(--bs-danger-bg-subtle) !important;
+  background-color: #00033187 !important;
 }
 
 .bg-light-subtle {
