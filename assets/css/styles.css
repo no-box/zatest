@@ -9939,7 +9939,7 @@ textarea.form-control-lg {
 
 .bg-light-gray {
   --bs-bg-opacity: 1;
-  background-color: rgb(40, 40, 40) !important;
+  background-color: rgb(34, 34, 34) !important;
 }
 
 .bg-black {
@@ -16714,6 +16714,11 @@ ul {
 .round-10 {
   width: 10px;
   height: 10px;
+}
+
+.round-16 {
+  width: 20px;
+  height: 20px;
 }
 
 .round-32 {
