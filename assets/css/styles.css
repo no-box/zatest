@@ -249,7 +249,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  /*! font-size: calc(1.3rem + 0.6vw); */
+  font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -9124,7 +9124,7 @@ textarea.form-control-lg {
 }
 
 .pt-9 {
-  /*! padding-top: 44px !important; */
+  padding-top: 44px !important;
 }
 
 .pt-10 {
@@ -13652,8 +13652,8 @@ border-radius: 0.5rem;
     padding-bottom: 80px !important;
   }
   .py-lg-11 {
-    /*! padding-top: 96px !important; */
-    /*! padding-bottom: 96px !important; */
+    padding-top: 96px !important;
+    padding-bottom: 96px !important;
   }
   .py-lg-12 {
     padding-top: 160px !important;
@@ -15060,7 +15060,7 @@ border-radius: 0.5rem;
     gap: 80px !important;
   }
   .gap-xl-11 {
-    /*! gap: 96px !important; */
+    gap: 96px !important;
   }
   .gap-xl-12 {
     gap: 160px !important;
