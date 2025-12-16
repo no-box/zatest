@@ -726,6 +726,19 @@ progress {
   height: auto;
 }
 
+.image {
+  overflow: hidden;
+}
+
+.image img {
+  transition: all 0.5s ease-in-out;
+}
+
+.image:hover img {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
 .figure {
   display: inline-block;
 }
