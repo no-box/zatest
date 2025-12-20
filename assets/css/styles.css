@@ -9952,7 +9952,7 @@ textarea.form-control-lg {
 
 .bg-light-gray {
   --bs-bg-opacity: 1;
-  background-color: rgb(34, 34, 34) !important;
+  background-color: rgb(30, 30, 30) !important;
 }
 
 .bg-black {
@@ -16501,7 +16501,7 @@ border-radius: 0.5rem;
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .banner-inner-section {
