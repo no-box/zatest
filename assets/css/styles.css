@@ -2530,7 +2530,7 @@ progress {
   padding: 0;
 }
 .form-control::placeholder {
-  color: var(--bs-secondary-color);
+  color: rgb(11, 71, 191);
   opacity: 1;
 }
 .form-control:disabled {
