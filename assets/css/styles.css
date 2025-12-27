@@ -269,7 +269,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  line-height: 1.1rem;
+  line-height: 1.5rem;
 }
 
 abbr[title] {
@@ -4692,6 +4692,7 @@ textarea.form-control-lg {
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
   box-shadow: var(--bs-card-box-shadow);
+  --bs-accent-color: #e50914; /* Broadcast Red */
 }
 .card > hr {
   margin-right: 0;
@@ -4714,6 +4715,12 @@ textarea.form-control-lg {
 .card > .card-header + .list-group,
 .card > .list-group + .card-footer {
   border-top: 0;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
 }
 
 .card-body {
@@ -9527,7 +9534,7 @@ textarea.form-control-lg {
 }
 
 .fs-15 {
-  font-size: calc(2.2rem + 3.9vw) !important;
+  font-size: calc(1.7rem + 3.9vw) !important;
 }
 
 .fs-16 {
@@ -9928,7 +9935,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgb(53, 53, 53) !important;
+  background-color: rgb(47, 46, 46) !important;
 }
 
 .bg-secondary {
@@ -9958,7 +9965,7 @@ textarea.form-control-lg {
 
 .bg-light-gray {
   --bs-bg-opacity: 1;
-  background-color: rgb(26, 25, 25) !important;
+  background-color: rgb(26, 26, 26) !important;
 }
 
 .bg-black {
@@ -16824,11 +16831,12 @@ ul {
 .btn .btn-text {
   position: relative;
   z-index: 1;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
   padding-inline-end: 15px;
+  line-height: 1.4rem;
 }
 .btn:hover .btn-text {
   color: var(--bs-white);
