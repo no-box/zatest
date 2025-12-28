@@ -259,7 +259,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.125rem;
-  margin-top: -1vh;
+  /*! margin-top: -1vh; */
 }
 
 h6, .h6 {
@@ -818,8 +818,8 @@ progress {
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  /*! padding-right: calc(var(--bs-gutter-x) * 0.5); */
+  /*! padding-left: calc(var(--bs-gutter-x) * 0.5); */
   margin-top: var(--bs-gutter-y);
 }
 
@@ -2083,7 +2083,7 @@ progress {
   }
   .col-xxl-12 {
     flex: 0 0 auto;
-    width: 100%;
+    /*! width: 100%; */
   }
   .offset-xxl-0 {
     margin-left: 0;
@@ -16732,7 +16732,7 @@ a:hover {
 }
 
 .link-hover:hover {
-  color: #2BC6FF !important;
+  color: #E01010 !important;
 }
 
 ul {
