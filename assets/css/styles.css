@@ -16786,7 +16786,7 @@ ul {
 }
 
 .border-line {
-  width: 64px;
+  /*! width: 64px; */
   height: 1px;
 }
 
