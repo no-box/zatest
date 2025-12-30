@@ -9530,7 +9530,7 @@ textarea.form-control-lg {
 }
 
 .fs-14 {
-  font-size: calc(1.5rem + 3vw) !important;
+  font-size: calc(1.5rem + 10vw) !important;
 }
 
 .fs-15 {
@@ -9664,6 +9664,16 @@ textarea.form-control-lg {
 }
 
 .text-dark {
+  --bs-text-opacity: 1;
+  color: rgb(57, 3, 3) !important;
+}
+
+.text-blu-light {
+  --bs-text-opacity: 1;
+  color: #00c3ff !important;
+}
+
+.text-blu-dark {
   --bs-text-opacity: 1;
   color: rgb(57, 3, 3) !important;
 }
